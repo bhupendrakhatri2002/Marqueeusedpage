@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cont{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+.cont >marquee > h1{
+    font-size: 150px;
+    padding: 5px;
+    color: blue;
+    /* color: aqua; */
+    
+}
+
+nav{
+    height: 15%;
+    width: 100%;
+    /* padding-left: 4% 1%; */
+    /* background-color: rgb(17, 64, 192); */
+    position: relative;
+    border: 1px solid black;
+    margin-top: 3%;
+}
+.one{
+    margin-top: 1%;
+}
+.one > span{
+    /* background-color: rgb(198, 12, 179); */
+    /* padding: 4px 5px; */
+    margin-left: 4%;
+    font-size: 45px;
+}
+
+.one > span:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgb(19, 15, 15);
+}
+
+
+nav> .butt {
+    position: absolute;
+    /* background-color: chartreuse; */
+    right: 5%;
+    top: 0;
+    margin-left: 1%;
+    height: 100%;
+    width: 24%;
+   
+   
+}
+.but1{
+    
+   height: 100%;
+    font-size: 30px;
+    padding: 0 10%;
+    background-color: rgb(110, 110, 226);
+    color: white;
+    border-top: none;
+    border-bottom: none;
+    border: none;
+    
+}
+
+.but1:hover{
+    background-color: chocolate;
+    color: rgb(13, 227, 31);
+    cursor: pointer;
+}
+
+.but2{
+    height: 100%;
+    font-size: 30px;
+    padding: 0 9%;
+    border-top: none;
+    border-bottom: none;
+    border: none;
+  
+}
+
+.but2:hover{
+    cursor: pointer;
+    background-color: rgb(22, 200, 37);
+    color: blue;
+}
+
+
+.box1{
+    height: 55%;
+    width: 50%;
+    background-color: chartreuse;
+  
+}
+
+.box1 > button{
+    position: absolute;
+    font-size: 22px;
+    left: 25%;
+    padding: 4px 6px;
+    top: 68%;
+    border-radius: 9px;
+    background-color: blue;
+    color: rgb(188, 177, 177);
+}
+
+.box1 > button:hover{
+    background-color: rgb(182, 21, 161);
+    color: mediumblue;
+
+}
+.box2{
+    background-color: rgb(196, 56, 151);
+    position: absolute;
+    right: 0;
+    top: 48.5%;
+    height: 55%;
+    width: 50%;
+}
+
+
+.box2> h1{
+    position: absolute;
+    font-size: 50px;
+   line-height: 50px;
+   top: 10%;
+   left: 10%;
+    text-align: center;
+    /* transform: translate(-50%,-50%); */
+    opacity: 0;
+    animation: head 1s linear 2s both;
+}
+
+
+@keyframes head {
+    from{
+
+    }
+    to{
+        top: 20%;
+        opacity: 1;
+    }
+}
+
+.box2> p{
+    position: absolute;
+    padding: 8px;
+    font-size: 20px;
+    top: 30%;
+    text-align: center;
+    text-align: justify;
+    opacity: 0;
+    animation: para 1s linear 1s both;
+    
+}
+
+@keyframes para {
+    from{
+
+    }
+    to{
+        top: 40%;
+        opacity: 1;
+    }
+}
+
+.three{
+    height: 100%;
+    width: 100%;
+}
